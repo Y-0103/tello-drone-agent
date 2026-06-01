@@ -8,7 +8,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-with open("tello无人机操作SDK.txt","r", encoding="utf-8") as f:
+with open("tello无人机操作手册.txt","r", encoding="utf-8") as f:
     book = f.read()
 book_mark = re.sub(r'【(.+?)】', r'# \1', book)
 
